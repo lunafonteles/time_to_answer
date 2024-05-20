@@ -6,6 +6,13 @@
   "author": "lunafonteles <luna.fonteles@vicegov.ce.gov.br>",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "5.2.3"
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo-rails": "^8.0.4",
+    "@rails/ujs": "^7.0.8-3",
+    "bootstrap": "5.2.3",
+    "esbuild": "^0.21.3"
+  },
+  "scripts": {
+    "build": "esbuild app/assets/javascripts/controllers/*.* --bundle --sourcemap --outdir=public/assets --public-path=/assets"
   }
 }
