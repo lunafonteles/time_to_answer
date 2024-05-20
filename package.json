@@ -1,0 +1,11 @@
+{
+  "name": "time_to_answer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lunafonteles/time_to_answer.git",
+  "author": "lunafonteles <luna.fonteles@vicegov.ce.gov.br>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "5.2.3"
+  }
+}

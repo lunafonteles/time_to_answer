@@ -35,3 +35,6 @@
 /config/master.key
 Gemfile.lock
 development.sqlite3
+/node_modules
+/public/templates
+yarn.lock

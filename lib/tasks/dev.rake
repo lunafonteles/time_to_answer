@@ -22,7 +22,7 @@ namespace :dev do
   desc "Adiciona o administrador padrão"
   task add_default_admin: :environment do
     Admin.create!(
-      email: 'adm@gmail.com',
+      email: 'admin@admin.com',
       password: DEFAULT_PASSWORD,
       password_confirmation: DEFAULT_PASSWORD
     )
