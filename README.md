@@ -1,17 +1,12 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+* Ruby version: 3.2.3
 
 * System dependencies
 
 * Configuration
 
 * Database creation
+rails dev:setup (em ambiente de dev e teste, limpa banco atual, cria novo e popula usuarios)
 
 * Database initialization
 
