@@ -1,11 +1,10 @@
-import "@hotwired/turbo-rails"
-import "./controllers"
-import Rails from "@rails/ujs"
+// app/assets/javascripts/application.js
+//= require rails-ujs
+//= require @hotwired/turbo-rails
+//= require @hotwired/stimulus
+//= require esbuild
+//= require_tree .
+//= require bootstrap
 
-Rails.start()
 
-import "scripts"
-import "scripts-user"
-import "bootstrap/dist/js/bootstrap.bundle.min.js"
-
-console.log('teste')
+console.log('JavaScript funcionando com Sprockets');

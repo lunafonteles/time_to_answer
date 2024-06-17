@@ -12,6 +12,8 @@ sudo apt update
 sudo apt install yarn nodejs
 
 * Configuration
+bundle
+yarn install
 
 * Database creation
 rails dev:setup (em ambiente de dev e teste, limpa banco atual, cria novo e popula usuarios)
